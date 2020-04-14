@@ -1,0 +1,16 @@
+PODS:
+  - CountryList (1.1)
+
+DEPENDENCIES:
+  - CountryList
+
+SPEC REPOS:
+  trunk:
+    - CountryList
+
+SPEC CHECKSUMS:
+  CountryList: ad58cd670c4ecab6bb014abebc12e63f619174b2
+
+PODFILE CHECKSUM: d4123a742348b92000babe637057e7a691cfe08a
+
+COCOAPODS: 1.9.1
