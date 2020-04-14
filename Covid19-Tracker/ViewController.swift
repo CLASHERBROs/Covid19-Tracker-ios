@@ -20,11 +20,20 @@ class ViewController: UIViewController, CountryListDelegate {
     @IBOutlet weak var btnVariable: UIButton!
     func selectedCountry(country: Country) {
         btnVariable.setTitle(country.name,for: .normal)
-        countryName = country.name
-        print(country.name)
-                      print(country.flag)
-                      print(country.countryCode)
-                      print(country.phoneExtension)
+       
+        if(country.name == "United States")
+        {
+            countryName = "United States of America"
+            
+        }
+        else if(country.name == "United Kingdom")
+        {
+            countryName = "England"
+        }
+        else{
+             countryName = country.name
+        }
+     print(countryName)
         performRequest(with: url)
         
     }
